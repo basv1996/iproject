@@ -1,0 +1,27 @@
+#nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding:  1em auto;
+    overflow: hidden;
+    background-color: #FFD3D0;
+}
+
+#nav ul li {
+    padding: auto;
+    margin: 3% ;
+    display: inline-block;
+}
+
+#nav ul li a {
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    text-decoration: none;
+    }
+
+td {
+    padding: 10px;}
+
+form {
+    width: 50px;}

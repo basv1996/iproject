@@ -1,0 +1,22 @@
+#InputContent, input {
+    width: 90%;
+margin-left: 5%;
+margin-right: 5%;}
+
+input {
+    margin-bottom: 1em;}
+
+#Content {
+    width: 90%;
+    height: 200px;
+margin-left: 5%;
+margin-right: 5%;}
+
+#InputContent {
+    text-align: center;
+}
+
+#InputContent button  {
+    margin-top: 1em;
+    margin: 2%;
+}

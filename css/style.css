@@ -1,0 +1,75 @@
+/* mobile landingspagina */
+body  {
+    background-color: #331122;
+} 
+
+#MobileBackground {
+    background-repeat: no-repeat ;
+    width: 100% 100%;
+    height: 100%;
+    background-attachment: fixed;}
+
+#frontText {
+    display: none;}
+
+#container h1 {
+    font-size: 40px;
+    font-family: 'Sofia';
+     left: 0;
+    padding-top: 25%;
+    /*line-height: 200px;*/
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    width: 100%;
+    color: black;
+} 
+
+#container {
+    shadow: 10px 10px 5px 0px rgba(0,0,0,0.67);
+    border-radius: 10%;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(139,0,0,0.8);
+    text-align: center;
+}
+
+#container #edges {
+    width: 100%;
+    transform: rotate(-15deg);
+}
+
+#container p {
+    font-size: 30px;
+    font-family: 'Mogra';
+    margin-top: 40%;
+}
+
+#container button {
+    font-size: 2em;
+    margin-top: 1em;
+    }
+
+@media screen and (min-width: 600px) {
+    body {
+         background-image: url(../img/backgournd-Homepage.jpg);
+    }
+    
+    #frontText {
+        background-color: rgba(0,0,0,0.7);
+        margin: 8% 2% 0 0; /* top right bottom left */
+        transform: rotate(10deg);
+        font-family: 'Sofia';
+        display: block;
+        float: right;
+        text-align: center;
+        color: white;
+    font-size: 120%;}
+}
