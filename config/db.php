@@ -3,9 +3,9 @@
 // online
 
 	//define('DB_SERVER', 'localhost');
-	//define('DB_USERNAME', 's21248');
-	//define('DB_PASSWORD', '21248');
-	//define('DB_DATABASE', '21248_Leerjaar2');
+	//define('DB_USERNAME', '********');
+	//define('DB_PASSWORD', '*******');
+	//define('DB_DATABASE', '********');
 
 // lokaal
 
